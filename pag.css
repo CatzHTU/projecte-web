@@ -23,11 +23,6 @@ a {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-a:hover {
-    transition: all .23s;
-    color: rgb(255, 74, 28);
-    font-size: larger;
-}
 
 button.hidden, button.undercover{
     transition: color .25s;
@@ -48,6 +43,12 @@ button.hidden:active {
 }
 
 
+a:hover {
+    transition: all .23s;
+    color: rgb(255, 74, 28);
+    font-size: larger;
+}
+
 video.hidden {
     display: none;
     opacity: 0;
@@ -67,11 +68,6 @@ footer {
     font-size: large;
     font-weight: 200;
     color: rgb(0, 132, 255);
-}
-
-.omggg:hover{
-    transition: all .23s;
-    font-size: larger;
 }
 
 .ref {
@@ -156,11 +152,6 @@ footer {
     left: 15%;
 }
 
-.btn:hover {
-    transition: all .25s;
-    background-color: rgb(0, 0, 0);
-    color: aliceblue;
-}
 
 .center {
     text-align: center;
@@ -184,4 +175,17 @@ footer {
 
 .product {
     
+}
+
+
+.btn:hover {
+    transition: all .25s;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+
+
+.omggg:hover{
+    transition: all .23s;
+    font-size: larger;
 }
