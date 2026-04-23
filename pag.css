@@ -15,11 +15,6 @@ h3 {
     color: rgba(0, 0, 0, 0.726);
 }
 
-.nav {
-    font-size: larger;
-    text-align: center;
-    color: pink;
-}
 
 a {
     transition: all .23s;
@@ -31,11 +26,6 @@ a {
 a:hover {
     transition: all .23s;
     color: rgb(255, 74, 28);
-    font-size: larger;
-}
-
-.omggg:hover{
-    transition: all .23s;
     font-size: larger;
 }
 
@@ -79,6 +69,11 @@ footer {
     color: rgb(0, 132, 255);
 }
 
+.omggg:hover{
+    transition: all .23s;
+    font-size: larger;
+}
+
 .ref {
     font-size: x-small;
     color: brown;
@@ -94,6 +89,12 @@ footer {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+}
+
+.nav {
+    font-size: larger;
+    text-align: center;
+    color: pink;
 }
 
 .song {
